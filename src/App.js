@@ -5,12 +5,18 @@ import Lists from './lists';
 import Forms from './forms';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './navbar';
+import Table from './tables';
 
 function App() {
   return (
     <HashRouter>
       <div className="App">
         <header className="App-header">
+
+        <a href="https://main--cs5610-landingpage-shreyansmulkutkar.netlify.app/" className="back-button">
+          Back to Landing Page
+        </a>
+          
 
           <Navbar />
 
@@ -27,6 +33,7 @@ function App() {
             <Route path="/" element={<h1> Use the navbar to view different components. </h1>}/>
             <Route path="/headingsandpara" element={<HeadingsAndParagraphs />} />
             <Route path="/lists" element={<Lists />} />
+            <Route path="/tables" element={<Table />} />
             <Route path="/forms" element={<Forms />} />
           </Routes>
 
