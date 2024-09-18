@@ -75,7 +75,6 @@
   color: #ddd;
   text-decoration: underline;
 }
-
 .back-button {
   position: absolute;
   top: 20px;
@@ -93,3 +92,22 @@
 .back-button:hover {
   background-color: #00b33c;
 }
+
+.kanbas-button {
+  position: absolute;
+  top: 20px;
+  right: 240px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: rgb(33, 3, 3);
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kanbas-button:hover {
+  background-color: #ff9900;
+}
+

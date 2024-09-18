@@ -16,7 +16,14 @@ function App() {
         <a href="https://main--cs5610-landingpage-shreyansmulkutkar.netlify.app/" className="back-button">
           Back to Landing Page
         </a>
+        <div></div>
+        <a href="https://main--kanbas-webapp-sm.netlify.app/" className="kanbas-button">
+          Go to Kanbas
+        </a>
+
+        <h1>Shreyans Mulkutkar</h1>
           
+        <h2>Lab 1</h2>
 
           <Navbar />
 
@@ -30,7 +37,7 @@ function App() {
           {/* <Forms /> */}
 
           <Routes>
-            <Route path="/" element={<h1> Use the navbar to view different components. </h1>}/>
+            <Route path="/" element={<h3> Use the above navbar to view different components. </h3>}/>
             <Route path="/headingsandpara" element={<HeadingsAndParagraphs />} />
             <Route path="/lists" element={<Lists />} />
             <Route path="/tables" element={<Table />} />
